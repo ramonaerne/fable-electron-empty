@@ -6,7 +6,7 @@
    !  The GUID must be upper-case, and it must be wrapped in {}
    !-->
   <PropertyGroup>
-    <ProjectGuid>{1F14CA2F-3588-4507-8202-E51EDEB733EC}</ProjectGuid>
+    <ProjectGuid>{086c2cbd-49f5-4bed-9fea-f7c1d2bd152e}</ProjectGuid>
   </PropertyGroup>
 
   <!--
