@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Skeleton</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../node_modules/codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">HLP</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container starter-template">
+      <div class="row">
+        <div class="col-md-8">
+            
+
+          <div style="border: 5px solid">
+    	     <textarea id = "code" name = "code">
+    	       ab ecd * fghi
+    	     </textarea>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+
+            <ul class="list-group">
+              <li class="list-group-item" id="r0">
+                <span class="badge">R0</span>0x0
+              </li>
+              <li class="list-group-item" id="r1">
+                <span class="badge">R1</span>0x0
+              </li>
+              <li class="list-group-item" id="pc">
+                <span class="badge">PC</span>0x0
+              </li>
+            </ul>
+
+            <a class="btn btn-default" href="#" role="button">Run</a>
+        </div>
+      </div>
+
+        
+      </div><!-- /.container -->
+
+    <script>window.jQuery = window.$ = require('jquery');</script>
+    <script> var bootstrap = require('bootstrap') </script>
+    <script> var fs = require('fs') </script>
+    <script> var code = require('codemirror');</script>
+    // <script src="../node_modules/codemirror/lib/codemirror.js"></script>
+    <script src="umd/Main.js"></script>
+    
+  </body>
+</html>
